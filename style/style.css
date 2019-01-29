@@ -1,0 +1,39 @@
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 1980px;
+  height: 1080px;
+  padding: 5px;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+/* Centered text */
+.centered {
+  color: rgba(230, 45, 76, 0.623);
+  text-shadow: none;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: rgb(255, 255, 255);
+	border-style: none;
+  text-shadow: -1px 0 1px #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	
+	
+	
+	
+  
